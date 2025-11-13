@@ -38,7 +38,7 @@ const mulaiBtn = document.getElementById('mulaiBtn');
   profileBtn.addEventListener('click', () => {
     const data = JSON.parse(localStorage.getItem('userProfile'));
     if (!data) {
-      alert('Isi dulu datanya lewat tombol "Mulai Sekarang" yaa');
+      
       return;
     }
 
